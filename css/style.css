@@ -1,0 +1,38 @@
+ul
+{
+  padding: 0px;
+  margin-left: 40px;  
+}
+
+li 
+{
+  padding: 10px;
+}
+
+.picture {
+  display: flex;
+  align-items: top; /* Vertically aligns text with the image */
+  gap: 20px; /* Adds space between the image and text */
+}
+
+.picture img {
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+.columns {
+  display:flex;
+  margin:20px;
+}
+
+.ingredients {
+  display:block;
+  width: 1000px;
+  padding:10px;
+  background-color: rgb(230, 227, 227);
+}
+
+.bereiding {
+  display:block;
+  padding:10px;
+}
