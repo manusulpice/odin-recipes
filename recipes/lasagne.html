@@ -7,7 +7,18 @@
     <title>Lasagne</title>
 </head>
 <body>
-    <h1>Lasagne van Jamie Oliver</h1> 
+    
+    <div class="headerbox">
+        <h1>Lasagne van Jamie Oliver</h1> 
+        <button onclick="goBack()">Terug</button>
+    </div>
+    
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    
     <div class="picture">
         <h3>Pak uit als een Italiaanse nonna met Jamie Oliver en schuif deze lasagne in de oven. Buon appetito!</h3>
         <img src="../img/lasagne.png" alt="Lasagne in ovenschaal" height="250" width="250">

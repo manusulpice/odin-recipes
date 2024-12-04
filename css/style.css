@@ -9,6 +9,28 @@ li
   padding: 10px;
 }
 
+.headerbox {
+  display: flex;
+  justify-content: center;
+}
+
+.headerbox h1 {
+  justify-self: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.headerbox button {
+  width: 100px;
+  height: 20px;
+  justify-self: left;
+  align-self: center;
+  background-color:grey;
+  border-color: grey;
+  border-radius: 5px;
+  color: white;
+}
+
 .picture {
   display: flex;
   align-items: top; /* Vertically aligns text with the image */
