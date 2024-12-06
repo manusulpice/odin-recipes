@@ -31,10 +31,26 @@ li
   color: white;
 }
 
+.picture .empty {
+  width: 100px;
+}
+
+.picture .inleiding {
+  width: 1000px;
+}
+
 .picture {
   display: flex;
   align-items: top; /* Vertically aligns text with the image */
   gap: 20px; /* Adds space between the image and text */
+}
+
+.picture h3 {
+  margin: 20px;
+}
+
+.picture div {
+  width: 150px;
 }
 
 .picture img {
