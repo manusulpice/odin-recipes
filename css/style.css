@@ -1,61 +1,38 @@
-ul
-{
+ul {
   padding: 0px;
   margin-left: 40px;  
 }
 
-li 
-{
-  padding: 10px;
+li {
+  padding: 7px;
 }
 
-.headerbox {
+.headerbutton{
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  margin: 20px;
 }
 
-.headerbox h1 {
-  justify-self: center;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-
-.headerbox button {
+button {
   width: 100px;
   height: 20px;
-  justify-self: left;
-  align-self: center;
+  justify-self: right;
   background-color:grey;
   border-color: grey;
   border-radius: 5px;
   color: white;
 }
 
-.picture .empty {
-  width: 100px;
-}
-
-.picture .inleiding {
-  width: 1000px;
-}
-
-.picture {
+.headerbox {
   display: flex;
-  align-items: top; /* Vertically aligns text with the image */
-  gap: 20px; /* Adds space between the image and text */
+  justify-content: center;
+  background-color: rgb(230, 227, 227);
+  border-radius: 8px;
 }
 
-.picture h3 {
-  margin: 20px;
-}
-
-.picture div {
-  width: 150px;
-}
-
-.picture img {
-  flex-shrink: 0; /* Prevents the image from shrinking */
-  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+.headerbox h1 {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .columns {
@@ -63,16 +40,40 @@ li
   margin:20px;
 }
 
+.col-left {
+  flex: 1;
+}
+
+.inleiding img {
+  width: 100%;
+  height: 100%; /* Stretches the height to fill the container */
+  object-fit: cover;
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
 .ingredients {
-  display:block;
-  width: 1000px;
-  padding:10px;
+  padding-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 10px;
   background-color: rgb(230, 227, 227);
+  border-radius: 8px;
 }
 
 .bereiding {
-  display:block;
-  padding:10px;
+  /* display: block; */
+  padding-left: 30px;
+  padding-bottom: 10px;
+  flex: 2;
+}
+
+.tijd {
+  display: flex;
+  justify-content:space-between;
+}
+
+.bereiding h1 {
+  margin-top: 1px;
 }
 
 .bereiding p {
